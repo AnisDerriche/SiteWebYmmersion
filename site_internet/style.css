@@ -1,0 +1,187 @@
+/*  haut de page */
+body {
+    background-color: rgb(0, 0, 35);
+}
+header {
+    color: crimson;
+    box-sizing: border-box ;
+    text-align: center;
+}
+
+
+
+/* bouton haut de page */
+nav.nav{
+    text-align: center
+}
+
+        /* les boutons sont maintenant centrer par rapport a la page internet */
+a{
+	font-size: 30px;
+	text-decoration:solid ;
+	background-color:red;
+	color:white;
+    border-radius: 30% 10%;
+
+}
+
+    /* les boutons ont une taille de 30px avc fon-pixel , larriere couleur est spécifié avec backgrounf-color , elle est ici rouge et de la couleur des characters qui es blanc , ensuite les angles des bordure sont spécifié avec les pourcentage . */
+
+a:hover{
+    background-color:rgb(255, 136, 0);
+	color:white ;
+	transition: 0.3s;
+    border-radius: 10% 30%;
+}
+
+    /* hover permet de dire lorsque la fleche de la souris est sur le bouton , la couleur passe a 255,238,0 avec une durée de transition de 0,3 seconde , les angles change de place avec l'angle opposé */
+li.btn{
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+ }
+    /* ici les bouton sont centrer et aligné */
+ 
+/* corp de page1 */
+div#acceuil div {
+    display: inline-block;
+    font-family: "Comic Sans MS";
+}
+
+    /* les bloque appartenant a div#acceuil possedent une ecriture comic sans ms et sont allignés */
+
+/* droite corp de page1 */
+
+div#acceuil div.box_g{
+    font-size: 20px;
+    width: 70%;
+    color: white;
+    border: 3px rgb(61, 61, 61) double;
+    margin-right: 10px;
+}   
+    /* le bloque box_g prends ici 70% de la place qui peut prendre avec width , border permet d'entourer le bloque , ici avec une bordure de 3px et une certaine couleur , le style de la bordure est ici double ce qui est a l'interieur du bloc sontespacé des bordure droite de 10px grace a margin */
+
+div#acceuil div.txt_acceuil {
+    width: 100%;
+    text-align: center;
+}
+
+div#acceuil div.box_g h2{
+    text-decoration: underline;
+}
+
+    /* ici le titre h2 est souligné avec text decoration */
+
+
+    /* gauche corp de page1 */
+
+div#acceuil div.box_topic {
+    color: rgb(255, 252, 252);
+    height: 300px;
+    vertical-align: top;
+    text-decoration: underline;
+    text-align: center;
+    width: 28%;
+    font-size: 20px;
+    position: fixed;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 9%, #4e4e4e 95%) ;
+}
+
+        /* ici la taille ne longueur du bloc est de 300px , position:fixed permet que lorsque on descend la page , le bloque box.topic reste au même endroit , ensuite backgroung-image permet de choisir un certain fond pour ce bloque  */
+/* page2 */
+
+/* gauche de page2 */
+div#page2 div {
+    color: white;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+
+div#page2 h2 {
+    text-decoration: underline;
+}
+div#page2 div.box_d{
+    width: 60%;
+    border: 3px rgb(61, 61, 61) double;
+    text-align: center;
+    background-color: rgb(31, 29, 94);
+    position: relative;
+    left: 20%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+/* milieu de page2 */
+
+div#page2 div.box_m{
+    width: 60%;
+    border: 3px rgb(61, 61, 61) double;
+    text-align: center;
+    background-color: rgb(31, 29, 94);
+    margin-top: 10px;
+    position: relative;
+    left: 20%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+a.visualstudio{
+	font-size: 30px;
+	text-decoration:solid ;
+	background-color:rgb(9, 9, 222);
+	color:white ;
+    border-radius: 30% 10%;
+
+}
+
+a.visualstudio:hover{
+    background-color:rgb(4, 79, 255);
+	color:white ;
+	transition: 0.3s;
+    border-radius: 10% 30%;
+}
+
+/* en bas de page2 */
+
+div#page2 div.box_g {
+    width: 60%;
+    border: 3px rgb(61, 61, 61) double;
+    background-color: rgb(31, 29, 94);
+    margin-top: 10px;
+    position: relative;
+    left: 20%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+}
+
+
+
+div#page2 div.box_g_explication_code{
+    text-align: center;
+    margin: 10px;
+}
+
+
+div#page2 div.box_g_image_site{
+    text-align: center;
+    margin: 10px;
+}
+
+
+/* bas de page */
+
+footer {
+    color : white;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

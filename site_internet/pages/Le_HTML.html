@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../script.js" defer></script> 
+    <!-- c'est le chemin d'accé au fichier pour le java script mais est peu utilisé sur ce site -->
+    <link rel="stylesheet" href="../style.css"> 
+    <!-- c'est le chemin d'accé vers le CSS ficher -->
+    <title>Le HTML </title>
+    
+</head>
+
+<body>
+    
+<!-- haut de page -->
+<header>
+
+    <h1 class="titre1">Le HTML</h1>
+
+        <nav class="nav">
+
+            <ul>
+
+                <li class="btn"> <a href="../acceuil.html">Acceuil</a> </li>
+
+                <li class="btn"><a href="Le_CSS.html">Le CSS</a> </li>
+
+            </ul>
+
+        </nav> 
+
+        <!-- les boutons nous permettons de pouvoir naviguer de façons plus rapide entre les differente page -->
+
+        <div class="btn">
+            <button id="btn1">bleu</button>
+            <button id="btn2">violet</button>
+            <button id="btn3">rouge</button>
+            <button id="btn4">rose</button>
+            <button id="btn5">jaune</button>
+            <button id="btn6">défaut</button>
+        </div> 
+        <!-- c'est du simple javascript vous permettons de choisir le fond de la page. Ce n'est pas une chose utile en sois  -->
+</header>
+
+<!-- milieu de page -->
+<div id="page2">
+
+    <!-- création du bloc unique du corp de la page . -->
+    <div class="box_d">
+        <div class="explication">
+            <h2> C'est quoi le HTML ?</h2>
+            <p>HTML signifie "HyperText Markup Language". C'est un langage qui permet de composer des pages web. On parle de langage de balisage et non de langage de programmation, car le but du HTML est d’encadrer les différents éléments présents dans une page (images, titres, paragraphes ...) par des balises pour leur permettre d’être mis en forme secondairement (via une feuille de style) et pour leur donner du sens.</p>
+            <img src="../image/balise.png">
+            <p>Ces balises fonctionnent le plus souvent par paire, car comme nous l’avons dit, elles servent à encadrer un élément. Il existe donc une balise ouvrante pour signifier le début d’un élément et une balise fermante pour en signifier la fin.</p>
+            <img src="../image/balise fermante.png" width="50%">
+        </div>
+        <!-- creation de sous bloc mais également de plusieurs paragraphe permettant d'expliquer le HTML  -->
+        <!-- les photo peuvent être incerer dans la page internet via img , width permet de donner la taille de l'image selon le bloc -->
+    </div>
+
+    <div class="box_m">
+        <div class="application">
+            <h2>Comment ça marche ?</h2>
+            <p>Après avoir compris ce que c'etait le HTML dans les grandes lignes , voyons maintenant comment nous pouvons mettre en place et créer un début de site internet pour l'école . <strong>C’EST PARTI</strong> </p>
+            <img src="../image/lets go.gif" width="20%">
+            <p> Tout dabord voyons comment un site internet est structuré , c'est très simple il faut s'imaginer de gros bloc les uns dans les autres et arrangé par le language CSS (pas d'inquiétude nous verrons ce que c'est que le CSS plus tard ) </p>
+            <img src="../image/balises-html5-3.png"> <img src="../image/bloc html.png" width="40%">
+            <p>Je vous conseil , pour débuter , l'application gratuite <a href="https://code.visualstudio.com" class="visualstudio">visualstudio</a>, elle est super simple d'utilisation et est ultra complète.  </p>
+        </div>
+        <!-- <a href="https://code.visualstudio.com" class="visualstudio">visualstudio</a>  permet de créer un lien vers le site en appuyant sur visualstudio-->
+    </div>
+
+    <div class="box_g">
+        <div class="demonstration">
+
+            <div class="box_g_explication_code">
+                <h2>Exemple de code</h2>
+
+                <p> Nous allons commencer doucement , pour cela nous allons nous interressez au balise de base comme header,body,h1,h2 et p</p>
+                <img src="../image/exemple_site_1_code.png" width="80%">
+                <p> Le header permet de spécialiser le haut de la page a plusieurs chose comme un grand titre, ici "Ma première page internet".</p>
+                <p> Le body lui permet de créer le corp de ta page , faut visualiser la page internet comme un humain, et permet de y placer plusieurs balise comme les plusieur types de "h" et des paragraphe "p".</p>
+                <p> Les balise "h" permettent de mettre un titre a un bloc du site internet néanmoins il ne faut pas trop en abuser car mettre trop de type de sous tire comme "h2" "h3" "h4" "h5" "h6" peut rendre le site complexe , il est donc conseillé d'utiliser seulement trois type de balise "h"</p>
+                <p> Les balises "p" servent à créer des paragraphes plus ou moins grand ces dernier sont tres utile pour expliquer le HTML </p>
+                
+            </div>
+
+
+            <div class="box_g_image_site ">
+                <h2>Voici ce que ça donne</h2>
+                <img src="../image/exemple_page_1_ph.png" width="80%">
+            </div>
+
+            <div class="box_g_explication_code">
+                <h2>Exemple de code</h2>
+                <p>Les listes descriptives utilisent une enveloppe de balisage différente de celle des autres types de listes "dl" ; chaque terme est en plus entouré d'un élément "dt" (description term) et chaque description d'un élément "dd" (description definition).</p>
+                <p>Les styles par défaut du navigateur vont afficher les listes de définition avec des descriptions indentées par rapport aux termes.</p>
+                <img src="../image/exemple_page2_code.png" width="80%">
+                <p> de plus la balise "img" permet d'incérer une image.</p>
+            </div>
+
+            <div class="box_g_image_site ">
+                <h2>Voici ce que ça donne</h2>
+                <img src="../image/exemple_page_2_ph.png" width="80%">
+            </div>
+        </div>
+        
+    </div>
+
+
+
+</div>
+<!-- bas de page -->
+
+<footer>
+    <nav class="nav">
+
+        <ul>
+
+            <li class="btn"> <a href="../Acceuil.html">Acceuil</a> </li>
+
+            <li class="btn"><a href="Le_CSS.html">Le CSS</a> </li>
+
+        </ul>
+
+    </nav> 
+
+    <p> Copyright &copy; Anis Derriche - 2022-2023 - All Right Reserved</p>
+</footer>
+</body>

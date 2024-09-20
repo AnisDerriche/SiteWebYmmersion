@@ -1,0 +1,63 @@
+
+
+
+
+
+
+
+/* A NE PAS REGARDER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tete de page */
+header {
+    text-align: center;
+}
+        /* permet a la balise "h1" d'être centrer par rapport à la page internet */
+
+
+/* corp de page */
+div#exemple div.presentation{
+    background-color: blue;
+    text-align: center;
+    width: 48%;
+}
+        /* permet de changer le fond du bloc div.presentation de couleur ici en bleu et en plus cera aligner au centre de la page  */
+
+div#exemple div.theatre {
+    background-color: yellow;
+    width: 48%;
+}
+
+        /* permet de changer le fond du bloc div.theatre de couleur ici en jaune */
+
+div#exemple div{
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+        /* permet d'alligner les bloc entre eux avec display , qui'ils prennent chaqu'un 48% de la page , car une page ne fait pas forcemment 100% et le vertial-align:top permet aux bloc moin volumineu de prendre le haut de leur page */
+        
+
+div#exemple div.image {
+    background-color: greenyellow;
+}
+
+        /* permet de changer le fond du bloc div.image de couleur ici en jaune vert */
